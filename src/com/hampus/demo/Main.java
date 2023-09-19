@@ -6,12 +6,15 @@ public class Main
 {
     public static void main(String[] args)
     {
-
-        String name = Scanner();
-    }
-    public static String Scanner()
-    {
         Scanner input = new Scanner(System.in);
-        return input.nextLine();
+
+        do
+        {
+            System.out.println("Input Number!");
+            int result = input.nextInt();
+
+            System.out.println("you picked " + result);
+
+        }while(true);
     }
 }
